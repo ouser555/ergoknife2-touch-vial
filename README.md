@@ -8,7 +8,7 @@
 * imgur demo video link
   https://imgur.com/5lGmcCW
 
-![image](https://github.com/ouser555/ergoknife2-touch-vial/blob/main/pic/0001.jpg)
+![image](https://github.com/ouser555/ergoknife2-touch-vial/blob/main/pic/0002.jpg)
 
 ![image](https://github.com/ouser555/ergoknife2touch/blob/main/pic/001.jpg)
 
