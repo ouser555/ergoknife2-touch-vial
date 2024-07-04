@@ -190,53 +190,44 @@ https://imgur.com/a/ag3FOmy
       
 .
 
-### VIA configurator 即時改鍵軟體
-
-  * 先從github上下載ergoknife2的json檔
-
-    https://github.com/ouser555/ergoknife2/blob/main/via%20config%20file/ErgoKnife2.json
-
-    右上下角方欄位有一排圖標，中間有個download raw file的圖標，
-
-    點選即可下載。
+### VIAL configurator 即時改鍵軟體
 
     
 
   * 打開網頁端app
 
-    https://usevia.app/
+    https://vial.rocks/
 
-    進入後可以看到最上方欄位有幾個圖標，點選最的最右邊的齒輪形圖標，
-
-    將Show Design tab選項打開，上方圖標就會多了一個Design可以選擇，
-
-    點選進入，選Load，然後選擇剛剛下載的ergoknife2.json檔，
-
-    即會秀出鍵盤配列。
+    會看到中間有個Start Vial 按下
     
-    ![image](https://github.com/ouser555/ergoknife2/blob/main/pic/0008.jpg)
+    ![image](https://github.com/ouser555/ergoknife2-touch-vial/blob/main/pic/0002.jpg)
 
     點選最上方的Configure圖標
 
-    再點選Authorize device +，此時如果你的鍵盤已接上電腦，
+    此時如果你的鍵盤已接上電腦，
 
     就會從跳出的對話框看到usevia.app要求與HID裝置連接，
 
     當中有一個ergoknife2的鍵盤，點選後鍵盤就能與APP連接。
 
     
-    ![image](https://github.com/ouser555/ergoknife2/blob/main/pic/0007.jpg)
-  * 可以看到鍵盤配列下方有兩個十字排列的按鍵，
+    
+  * 可以看到鍵盤配列左右兩側各有一個十字排列的按鍵組，
 
-    十字中間的X是沒有設定功能的，
+    左邊十字中間的X是沒有設定功能的，
 
     十字的四個方向則是UWASD模式的自定義欄位，
 
     可以嘗試設定按鍵操作看看。
 
-    
 
-  * 中間下方還有四個按鍵，這是作為滾輪編碼器的功能預留鍵，
+
+  * 右邊十字鍵的中鍵位為三指觸發設定按鍵，
+    四向鍵則為指定四向swip觸發按鍵。
+
+
+
+  * 下排的兩邊還有兩組一對的按鍵，這是作為滾輪編碼器的功能預留鍵，
 
     電路有預留功能腳位，目前沒有開放，有要改的可以再來訊討論。
 
@@ -244,13 +235,13 @@ https://imgur.com/a/ag3FOmy
 
 * 開源連結
 
-  https://github.com/ouser555/ergoknife2touch
+  https://github.com/ouser555/ergoknife-2touch-vial
 
   ```
-  make ergoknife2:via
+  make ergoknife2:vial
   ```
 
-  使用的QMK版本 qmk 0.22.13，其他版本不保證能正確運行。
+  使用的QMK版本 qmk 0.22.13，幾乎同時期的vial-qmk，其他版本不保證能正確運行。
 
   如果有需要改成最新版本可以參考qmk的changeLog
 
