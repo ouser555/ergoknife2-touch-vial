@@ -1,4 +1,7 @@
 # ergoknife2-touch-vial
+
+* 原本有的//#define MK_KINETIC_SPEED  要註解掉，不然會類型衝突。
+
 # ergoknife2touch
 
 ### imgur link
